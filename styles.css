@@ -1,0 +1,85 @@
+html {
+    font-family: "Grandstander", cursive;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    color: gray;
+  }
+  
+  /* ===================   MAIN   =================== */
+  
+  .main {
+    width: 80%;
+    max-width: 800px;
+    min-height: 50vh;
+    max-height: 80vh;
+    overflow-y: scroll;
+    justify-self: center;
+    box-shadow: 5px 10px 18px gray;
+    padding: 1em;
+  }
+  
+  .todo_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+  }
+  
+  /* ===================   INPUT   =================== */
+  
+  .inputGroup {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    font-family: "Grandstander", cursive;
+    color: gray;
+    text-align: center;
+  }
+  
+  /* ==================   BUTTONS   ================== */
+  
+  .button {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+  }
+  
+  .submit_button {
+    font-size: 1.5rem;
+    color: palevioletred;
+    margin-top: 40px;
+    font-family: "Grandstander", cursive;
+    transition: 0.6s;
+  }
+  
+  .submit_button:hover {
+    color: red;
+    font-weight: 700;
+  }
+  
+  .line_through {
+    text-decoration: line-through;
+    color: gray;
+  }
